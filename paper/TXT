@@ -1,0 +1,39 @@
+-SkipList. This means that all threads
+must repeatedly compete to decide who gets this minimal node,
+resulting in a bottleneck due to contention, and limited scalability
+[21].
+
+
+-mutex simpicidad es simple, pero no es escalable.
+-por su naturaleza no es escalable.
+-cuando se necesita alta demanda de "concurrencia".
+
+
+
+
+-deathlock- ocurre cuando entra un estado de espera.
+-en estructura de datos concurrente.
+-solucion rapida, seria diseñar programas sin usar mutex; pero, se puede desarrollar lockfree.
+-skipList lookfree
+
+
+-permitir q los datos ingresen por otras partes de la lista(priority quee) -> spray
+
+-spray camino aleatorio pero controlado, de la raiz (deleteMin)
+-estructura probabilistica
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1. ¿Cuál es la ventaja de la concurrencia en los sistemas monoprocesador?
+R= La principal ventaja es la posibilidad de ejecutar dos o mas procesoso en un mismo tiempo, y se da la multiprogramacion.
+2. ¿Cuáles son las diferencias entre programación concurrente, paralela y distribuida?
+R=    La programación concurrente es un conjunto de acciones que pueden ser ejecutadas simultáneamente.
+La programación paralela es un tipo de programación concurrente diseñado para ejecutarse en un sistema multiprocesador
+La programación distribuida programación en paralelo que está diseñado para ejecutarse en un sistema distribuido, es decir, en una red de procesadores autónomos que no comparten una memoria común
+3. ¿Cuáles son las diferencias entre multiprogramación, multiproceso y procesamiento distribuido?
+R= La multiprogramación es la forma de gestionar los procesos en un sistema monoprocesador.
+El multiproceso es la gestión de varios procesos dentro de un sistema multiprocesador donde cada procesador puede acceder a una memoria común. El procesamiento distribuido es la gestión de varios procesos en procesadores separados, cada uno con su memoria local
