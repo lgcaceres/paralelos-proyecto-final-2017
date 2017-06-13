@@ -10,7 +10,7 @@ $ make
 
 Ejecutar
 ---------
-./test_ejecutables/spray
+./test_bin/spray
 
 
 Experimentos
