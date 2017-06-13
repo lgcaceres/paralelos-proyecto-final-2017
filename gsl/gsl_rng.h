@@ -20,9 +20,9 @@
 #ifndef __GSL_RNG_H__
 #define __GSL_RNG_H__
 #include <stdlib.h>
-#include <gsl/gsl_types.h>
-#include <gsl/gsl_errno.h>
-#include <gsl/gsl_inline.h>
+#include "gsl_types.h"
+#include "gsl_errno.h"
+#include "gsl_inline.h"
 
 #undef __BEGIN_DECLS
 #undef __END_DECLS

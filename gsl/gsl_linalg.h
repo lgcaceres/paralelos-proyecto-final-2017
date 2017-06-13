@@ -20,10 +20,10 @@
 #ifndef __GSL_LINALG_H__
 #define __GSL_LINALG_H__
 
-#include <gsl/gsl_mode.h>
-#include <gsl/gsl_permutation.h>
-#include <gsl/gsl_vector.h>
-#include <gsl/gsl_matrix.h>
+#include "gsl_mode.h"
+#include "gsl_permutation.h"
+#include "gsl_vector.h"
+#include "gsl_matrix.h"
 
 #undef __BEGIN_DECLS
 #undef __END_DECLS

@@ -25,8 +25,8 @@
 #define __GSL_MONTE_PLAIN_H__
 
 #include <stdio.h>
-#include <gsl/gsl_monte.h>
-#include <gsl/gsl_rng.h>
+#include "gsl_monte.h"
+#include "gsl_rng.h"
 
 #undef __BEGIN_DECLS
 #undef __END_DECLS
